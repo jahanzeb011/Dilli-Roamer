@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilli Roamer</title>
+    <link rel="website icon" type="png" href="https://www.linkpicture.com/q/THE-STRAW-HAT-1.png">
+    <link rel="stylesheet" href="htg.css">
+</head>
+<body>
+    <div class="close-btn" onclick="goToIndexPage()">&times;</div>
+    <div class="cont1">
+        <img class="logo" src="logo.png" alt="">
+
+        <img class="img2" src="dilliroamer.png" alt="">
+    </div>
+
+
+    <div class="cont2">
+      <h1 class="h1">How To Go?</h1>
+
+       <div class="incont">
+        <p class="p1">Enter the Locations</p>
+        <input id="from" class="inp" type="search" placeholder="from where">
+        <input id="to" class="inp" type="search" placeholder="to where">
+        <button id="done" onclick="checkInputs()" class="btn">Done</button>
+       </div>
+
+      <div class="incont1">
+
+           <div class="incont2">
+             <img class="inconimg" src="metro.png" alt="">
+
+             <div class="det1">
+              <div class="price">
+                 <p class="p2">₹</p>
+                   <p id="mp" class="p3">0</p>
+                  </div>
+
+             <div class="pa1">
+                <p class="met">Nearest Metro Station :</p>
+                <p id="ms" class="met">none</p>
+                <p class="met">Exit :</p>
+                <p id="ems" class="met">none</p>
+             </div>
+
+              </div>
+
+
+              <img class="inconimg2" src="bus.png" alt="">
+
+             <div class="det1">
+              <div class="price">
+                 <p class="p2">₹</p>
+                   <p id="bp" class="p3">0</p>
+                  </div>
+
+             <div class="pa1">
+                <div class="bs">
+                <p class="met">Nearest Bus Stop: </p>
+                <p id="nbs" class="met1"> none</p>
+                </div>
+
+                <div class="bs">
+                  <p class="met">Exit Stop: </p>
+                  <p id="ebs" class="met1"> none</p>
+                  </div>
+
+                <div class="bs">
+                <p class="met">Bus Nmbr : </p>
+                <p id="bsno" class="met1"> none</p>
+                  </div>
+             </div>
+
+              </div>
+        
+            </div>
+
+
+            <div class="incont3">
+                <img class="inconimg" src="auto.png" alt="">
+   
+                <div class="det1">
+                 <div class="price">
+                    <p class="p2">₹</p>
+                      <p id="ap" class="p3">0</p>
+                     </div>
+   
+                <div class="pa1">
+                   <p class="met">(Approximate Price)</p>
+                </div>
+   
+                 </div>
+   
+   
+                 <img class="inconimg3" src="cab.png" alt="">
+   
+                <div class="det1">
+                 <div class="price">
+                    <p class="p2">₹</p>
+                      <p id="cp" class="p3">0</p>
+                     </div>
+   
+                <div class="pa1">
+                   <p class="met">(Approximate Price)</p>
+                  
+   
+                   
+                </div>
+   
+                 </div>
+           
+               </div>
+
+
+          </div>
+    </div>
+
+
+    <script src="htg.js"></script>
+</body>
+</html>
